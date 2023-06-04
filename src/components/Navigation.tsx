@@ -46,7 +46,6 @@ const SignInButton = styled.button`
 
 export const Navigation = () => {
   return (
-<<<<<<< HEAD
     <NavbarContainer>
       <Logo>Class</Logo>
       <NavbarList>
@@ -64,8 +63,4 @@ export const Navigation = () => {
     </NavbarContainer>
     
   );
-=======
-    <div>Navigalsdnsafndsation</div>
-  )
->>>>>>> ce937127bcf7d2c811ac6cbac56938687c9b3893
 }

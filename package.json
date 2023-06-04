@@ -10,14 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-=======
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "react-is": "^16.13.1",
->>>>>>> ce937127bcf7d2c811ac6cbac56938687c9b3893
     "styled-components": "^5.3.11"
   },
   "devDependencies": {
