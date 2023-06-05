@@ -17,7 +17,7 @@ const SectionOne = styled.section`
    margin-left: 4rem;
 `;
 
-const OneTitle = styled.h3`
+const OneTitle = styled.h5`
    font-weight: bold;
    margin: 0 !important;
    letter-spacing: -1px;
