@@ -21,6 +21,7 @@ const OneTitle = styled.h5`
    font-weight: bold;
    margin: 0 !important;
    letter-spacing: -1px;
+   color: pink;
 `;
 
 const OneTitleSub = styled.h1`
