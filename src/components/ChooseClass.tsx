@@ -7,6 +7,11 @@ const Wrapper = styled.section`
     display: flex;
     flex-direction: column;
     margin-top: 6.5rem;
+
+    @media (max-width: 768px) {
+      margin:0;
+      margin-top: 1.5rem;
+    }
 `;
 
 const SectionOne = styled.div`
@@ -19,6 +24,10 @@ const SectionTwo = styled.div`
     width: 70%;
     margin: 0 auto;
     margin-top: 2.8rem;
+
+    @media (max-width: 768px) {
+       flex-direction: column;
+    }
 
 `;
 
@@ -45,9 +54,14 @@ const PartOne = styled.div`
     width: 38vw;
     border-radius: 1rem;
 
-
     & > * {
         margin: .5rem;
+    }
+
+    @media (max-width: 768px) {
+      width: 80%;
+      margin: 0 auto;
+      margin: 2rem;
     }
     
 `;
@@ -67,6 +81,12 @@ const PartTwo = styled.div`
     & > * {
       margin: .5rem;
   }
+
+    @media (max-width: 768px) {
+      width: 80%;
+      margin: 0 auto;
+      margin: 2rem;
+  }
 `;
 
 const PartThree = styled.div`
@@ -83,6 +103,12 @@ const PartThree = styled.div`
 
     & > * {
       margin: .5rem;
+  }
+    
+    @media (max-width: 768px) {
+     width: 80%;
+     margin: 0 auto;
+     margin: 2rem;
   }
 `;
 

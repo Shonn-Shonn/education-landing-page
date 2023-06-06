@@ -8,6 +8,10 @@ const Wrapper = styled.section`
   justify-content : center;
   align-items: center;
   width:100%;
+
+  @media (max-width: 768px) {
+   flex-direction: column;
+ }
 `;
 
 
@@ -15,6 +19,10 @@ const SectionOne = styled.section`
    width: 40%;
    padding: .5rem;
    margin-left: 4rem;
+
+   @media (max-width: 768px) {
+      width: 100%;
+    }
 `;
 
 const OneTitle = styled.h5`
@@ -22,6 +30,7 @@ const OneTitle = styled.h5`
    margin: 0 !important;
    letter-spacing: -1px;
    color: pink;
+
 `;
 
 const OneTitleSub = styled.h1`
@@ -30,6 +39,10 @@ const OneTitleSub = styled.h1`
    margin:0 !important;
    letter-spacing:-1px;
    width:40%;
+
+   @media (max-width: 768px) {
+      width: 90%;
+    }
 `;
 
 const SectionSub = styled.p`
@@ -43,6 +56,11 @@ const SectionTwo = styled.section`
    width: 40%;
    padding: .5rem;
    margin-right: 4rem;
+
+   @media (max-width: 768px) {
+      display: none;
+    }
+
 `;
 
 const Button = styled.button`
