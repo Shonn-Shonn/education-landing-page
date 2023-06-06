@@ -11,6 +11,8 @@ const Wrapper = styled.section`
 
   @media (max-width: 768px) {
    flex-direction: column;
+   width: 100%;
+   overflow: hidden !important;
  }
 `;
 
@@ -73,6 +75,10 @@ const Button = styled.button`
    color: white;
    cursor:pointer;
    margin-top: 1rem;
+
+   @media (max-width: 768px) {
+        margin-top: 1.5rem;
+   }
 `;
 
 const HeroImage = styled.div`

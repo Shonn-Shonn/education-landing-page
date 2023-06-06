@@ -10,7 +10,10 @@ const Wrapper = styled.section`
 
     @media (max-width: 768px) {
       margin:0;
-      margin-top: 1.5rem;
+      margin-top: 2.5rem;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
     }
 `;
 
@@ -59,7 +62,8 @@ const PartOne = styled.div`
     }
 
     @media (max-width: 768px) {
-      width: 80%;
+      width: 85%;
+      height: 60%;
       margin: 0 auto;
       margin: 2rem;
     }
@@ -83,7 +87,8 @@ const PartTwo = styled.div`
   }
 
     @media (max-width: 768px) {
-      width: 80%;
+      width: 85%;
+      height: 60%;
       margin: 0 auto;
       margin: 2rem;
   }
@@ -106,7 +111,8 @@ const PartThree = styled.div`
   }
     
     @media (max-width: 768px) {
-     width: 80%;
+     width: 85%;
+     height: 60%;
      margin: 0 auto;
      margin: 2rem;
   }
