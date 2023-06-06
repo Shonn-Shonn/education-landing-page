@@ -54,6 +54,7 @@ const Button = styled.button`
    background-color: black;
    color: white;
    cursor:pointer;
+   margin-top: 1rem;
 `;
 
 const HeroImage = styled.div`
