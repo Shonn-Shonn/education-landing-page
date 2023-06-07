@@ -2,11 +2,16 @@ import styled from "styled-components"
 import ImageOne from "../imgs/knowledge.png";
 import ImageTwo from "../imgs/library.png";
 import ImageThree from "../imgs/notebook.png";
+import SectionTwoImage from "../imgs/backtoschool.jpg";
 
 const Wrapper = styled.section` 
     display: flex;
     flex-direction: column;
     margin-top: 6.5rem;
+
+    @media (max-width: 1024px){
+    
+    }
 
     @media (max-width: 768px) {
       margin:0;
@@ -27,6 +32,7 @@ const SectionTwo = styled.div`
     width: 70%;
     margin: 0 auto;
     margin-top: 2.8rem;
+
 
     @media (max-width: 768px) {
        flex-direction: column;
@@ -61,12 +67,18 @@ const PartOne = styled.div`
         margin: .5rem;
     }
 
+    @media (max-width: 1024px){
+        display: none;
+    }
+
     @media (max-width: 768px) {
+      display: block;
       width: 85%;
       height: 60%;
       margin: 0 auto;
       margin: 2rem;
     }
+
     
 `;
 
@@ -84,9 +96,15 @@ const PartTwo = styled.div`
 
     & > * {
       margin: .5rem;
-  }
+    }
+
+    @media (max-width: 1024px){
+        display: none;
+    }
+
 
     @media (max-width: 768px) {
+      display: block;
       width: 85%;
       height: 60%;
       margin: 0 auto;
@@ -108,9 +126,14 @@ const PartThree = styled.div`
 
     & > * {
       margin: .5rem;
-  }
+    }
+
+    @media (max-width: 1024px){
+        display: none;
+    }
     
     @media (max-width: 768px) {
+     display: block;
      width: 85%;
      height: 60%;
      margin: 0 auto;
@@ -125,6 +148,10 @@ const PartOneImge = styled.div`
     width: 6rem;
     height: 6rem;
     margin-top: 1.8rem;
+
+    @media (max-width: 768px) {
+        margin: 0 auto;
+     }
 `;
 
 const PartTwoImge = styled.div`   
@@ -133,6 +160,10 @@ const PartTwoImge = styled.div`
     background-size: cover;
     width: 6rem;
     height: 6rem;
+
+    @media (max-width: 768px) {
+        margin: 0 auto;
+     }
 `;
 
 const PartThreeImge = styled.div`
@@ -141,15 +172,28 @@ const PartThreeImge = styled.div`
     background-size: cover;
     width: 6rem;
     height: 6rem;
+
+    @media (max-width: 768px) {
+        margin: 0 auto;
+     }
 `;
 
 const PartOneTitle = styled.h2`
+    @media (max-width: 768px) {
+       text-align: center;
+    }
 `;
 
 const PartTwoTitle = styled.h2`
+    @media (max-width: 768px) {
+       text-align: center;
+    }
 `;
 
 const PartThreeTitle = styled.h2`
+    @media (max-width: 768px) {
+       text-align: center;
+    }
 `;
 
 const PartOneSub = styled.p`
@@ -172,6 +216,25 @@ const SpecialPinkSub = styled.p`
     display: inline;
 `;
 
+const SectionTwoPart = styled.div`
+    background-image: url(${SectionTwoImage});
+    width: 100vw;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: .5rem;
+    display: none;
+
+    @media (max-width: 1024px){
+        display: block;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+     }
+`;
+
 export const ChooseClass = () => {
   return (
     <div>
@@ -188,6 +251,7 @@ export const ChooseClass = () => {
                </SectionOne>
 
                <SectionTwo>
+                    
                     <PartOne>
                         <PartOneImge></PartOneImge>
                         <PartOneTitle>
@@ -220,6 +284,10 @@ export const ChooseClass = () => {
                             Trucker Jacket incorporates the latest technology with one of the most new app. 
                          </PartThreeSub>
                     </PartThree>
+
+                    <SectionTwoPart>
+                         
+                    </SectionTwoPart>
                </SectionTwo>
          </Wrapper>
     </div>
